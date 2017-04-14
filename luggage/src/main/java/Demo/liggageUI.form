@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Demo.liggageUI">
+  <grid id="27dc6" binding="weightLabel" layout-manager="GridLayoutManager" row-count="8" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="19" y="20" width="951" height="256"/>
+    </constraints>
+    <properties>
+      <toolTipText value="重量间以、隔开"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="f9a09" class="javax.swing.JRadioButton" binding="RadioButton2">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="116" height="31"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="国际或地区航班"/>
+        </properties>
+      </component>
+      <component id="8b96a" class="javax.swing.JRadioButton" binding="RadioButton3">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="219" height="31"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="区域二：涉及中西亚（注1）的航程"/>
+        </properties>
+      </component>
+      <component id="3e7b5" class="javax.swing.JRadioButton" binding="RadioButton1">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="56" height="31"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="国内"/>
+        </properties>
+      </component>
+      <component id="2fe9a" class="javax.swing.JLabel" binding="routeLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="48" height="31"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="航班路线"/>
+        </properties>
+      </component>
+      <component id="a1a2e" class="javax.swing.JRadioButton" binding="RadioButton4">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="176" height="31"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="区域三：涉及内罗毕的航程"/>
+        </properties>
+      </component>
+      <component id="e28af" class="javax.swing.JRadioButton" binding="RadioButton5">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="188" height="31"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="区域四：除日本、美洲、澳新"/>
+        </properties>
+      </component>
+      <component id="4fc9e" class="javax.swing.JLabel" binding="sitLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="舱位"/>
+        </properties>
+      </component>
+      <component id="f970b" class="javax.swing.JRadioButton" binding="RadioButton6">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="头等舱"/>
+        </properties>
+      </component>
+      <component id="e2932" class="javax.swing.JRadioButton" binding="RadioButton7">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="公务舱"/>
+        </properties>
+      </component>
+      <component id="1cf4c" class="javax.swing.JRadioButton" binding="RadioButton8">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="经济舱"/>
+        </properties>
+      </component>
+      <component id="ed2e8" class="javax.swing.JLabel" binding="priceLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="票价"/>
+        </properties>
+      </component>
+      <component id="a6549" class="javax.swing.JTextField" binding="textFieldprice">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b8a89" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="重量"/>
+        </properties>
+      </component>
+      <component id="27550" class="javax.swing.JTextField" binding="textFieldweight">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <toolTipText value="重量间、隔开"/>
+        </properties>
+      </component>
+      <component id="8e313" class="javax.swing.JLabel" binding="sizeLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="尺寸"/>
+        </properties>
+      </component>
+      <component id="e3887" class="javax.swing.JTextField" binding="textFieldsize">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <toolTipText value="尺寸间、隔开"/>
+        </properties>
+      </component>
+      <component id="d540a" class="javax.swing.JLabel" binding="numlabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="行李数量"/>
+        </properties>
+      </component>
+      <component id="855dc" class="javax.swing.JTextField" binding="textFieldnum">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="7d47d" class="javax.swing.JLabel" binding="calLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="计算结果"/>
+        </properties>
+      </component>
+      <component id="97836" class="javax.swing.JTextField" binding="textFieldresult">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="2f22a" class="javax.swing.JButton" binding="ButtonCal">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="计算"/>
+        </properties>
+      </component>
+      <component id="91d86" class="javax.swing.JButton" binding="ButtonCancel">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="11"/>
+          <text value="取消"/>
+        </properties>
+      </component>
+      <component id="dc374" class="javax.swing.JLabel" binding="labelshili">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="示例12*21*45、21*45*43"/>
+        </properties>
+      </component>
+      <component id="1a574" class="javax.swing.JLabel" binding="weightshili">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="示例12、34、43"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="routeGroup">
+      <member id="f9a09"/>
+      <member id="8b96a"/>
+      <member id="3e7b5"/>
+      <member id="a1a2e"/>
+      <member id="e28af"/>
+    </group>
+    <group name="buttonGroup1">
+      <member id="f970b"/>
+      <member id="e2932"/>
+      <member id="1cf4c"/>
+    </group>
+  </buttonGroups>
+</form>
